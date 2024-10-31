@@ -1,1 +1,9 @@
-/* Your code here */
+.main-nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1% 10%;
+}
+
+.main-nav__entry {
+    line-height: 12px;
+}
