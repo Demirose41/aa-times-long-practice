@@ -16,6 +16,19 @@ button {
   transition: background-color 0.3s;
 }
 
+h1 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 28px;
+  line-height: 28px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 button:hover {
   background-color: #326891;
 }
