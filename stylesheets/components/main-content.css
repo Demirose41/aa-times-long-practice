@@ -1,7 +1,9 @@
+
+
 .main-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, .25fr);
+    grid-template-rows: repeat(6, minmax(.5fr));
 }
 
 .main-content-title{
@@ -92,4 +94,23 @@
 .article_comments{
     padding-top: .5em;
     color: #6f6f6f;
+}
+
+@media screen and (max-width: 1200px ){
+    #opinions,
+    #operations,
+    #article_grid{
+        display: none;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .interest-links {
+        display: none;
+    }
 }
